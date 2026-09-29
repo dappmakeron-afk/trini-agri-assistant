@@ -1,0 +1,68 @@
+name: plant_care_app
+description: "Trini Agri Assistant — plant tracking and care."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.11.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  app_settings: ^5.1.1
+  
+
+
+  # Storage & data
+  shared_preferences: ^2.5.5
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  path_provider: ^2.1.4
+
+  # UI & charts
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5+1
+  fl_chart: ^0.68.0
+
+  # Notifications & scheduling
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.0
+
+  # Media
+  image_picker: ^1.1.2
+  image: ^4.1.3
+
+  # Voice
+  speech_to_text: ^7.0.0
+
+  # Export / import
+  pdf: ^3.11.0
+  csv: ^6.0.0
+  share_plus: ^7.2.2
+  file_picker: ^8.1.2
+
+  # Networking (weather)
+  http: ^1.2.0
+
+  # Utilities
+  intl: ^0.19.0
+  permission_handler: ^11.3.1
+  device_info_plus: ^9.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.png
